@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme inline {
+    --color-bg: var(--clr-bg);
+    --color-fg: var(--clr-fg);
+
+    --color-pink: var(--clr-pink);
+    --color-light-pink: var(--clr-light-pink);
+}
+
+@layer base {
+    :root {
+        /* Tokens primitifs */
+        --clr-white: #ffffff;
+        --clr-dark: #1a1a1a;
+        --clr-pink: #ff385c;
+        --clr-light-pink: #ffd1da;
+    }
+
+    .dark {
+        --clr-fg: var(--clr-white);
+        --clr-bg: var(--clr-dark);
+    }
+}

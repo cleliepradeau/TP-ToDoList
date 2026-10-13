@@ -5,6 +5,7 @@ import AddTask from "./components/AddTask";
 import Task from "./components/Task";
 import { useState } from "react";
 
+//COUCOU
 const initialTasks = [
   { key: crypto.randomUUID(), name: "Faire les courses", completed: false },
   { key: crypto.randomUUID(), name: "Appeler le dentiste", completed: false },
